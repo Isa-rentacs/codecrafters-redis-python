@@ -12,8 +12,5 @@ def main():
         msg = connection.recv(1024)
         connection.send(b"+PONG\r\n")
     
-
-
-
 if __name__ == "__main__":
     main()
